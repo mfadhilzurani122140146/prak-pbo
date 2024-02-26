@@ -4,7 +4,7 @@ def hitung_bilangan_ganjil(batas_bawah, batas_atas):
         return
 
     jumlah_ganjil = 0
-    for i in range(batas_bawah, batas_atas + 1):
+    for i in range(batas_bawah, batas_atas):
         if i % 2 != 0:
             print(i)
             jumlah_ganjil += i
